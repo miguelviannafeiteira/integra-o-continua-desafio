@@ -1,0 +1,19 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.5",
+    "sonar-scanner": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.5",
+    "vitest": "^0.34.5"
+  }
+}
