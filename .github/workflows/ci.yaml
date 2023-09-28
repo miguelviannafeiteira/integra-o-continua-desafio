@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-go@v2
         with:
           node-version: 18.16.1
-      - run: go test -coverprofile=coverage.out
+      - run: npm run test
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
