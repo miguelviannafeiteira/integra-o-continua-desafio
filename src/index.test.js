@@ -1,4 +1,4 @@
-import { expect, test } from "vitest"
+import { describe, expect, test } from "vitest"
 import { sum, div, multi, sub } from "./index"
 
 describe("Teste da pasta index.js", () => {
