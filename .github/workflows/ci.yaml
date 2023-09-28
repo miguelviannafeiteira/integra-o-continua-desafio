@@ -4,14 +4,16 @@ on:
     branches:
       - dev
 jobs:
-  ci-sonarcloud:
+  node-desafio:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
         with:
           node-version: 18.16.1
-      - run: go test -coverprofile=coverage.out
+          vitest: 4.4.9
+          vitest/coverage-v8": ^0.34.5
+      - run: npx vitest --coverage
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
