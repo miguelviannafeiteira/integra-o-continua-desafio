@@ -1,0 +1,8 @@
+<testExecutions version="1">
+  <file path="src/index.test.js">
+    <testCase name="A soma deve retornar 5" duration="1" />
+    <testCase name="A subtração deve retornar 1" duration="0" />
+    <testCase name="A multiplicação deve retornar 6" duration="1" />
+    <testCase name="A divisão deve retornar 2" duration="0" />
+  </file>
+</testExecutions>
